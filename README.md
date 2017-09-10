@@ -49,6 +49,7 @@ Write a regex pattern that:
 _file_ - could be any Python file dumped into a string_
 
 __*This series has been graded:*__
+
 ![Much to learn you still have.](https://media0.giphy.com/media/3ohuAxV0DfcLTxVh6w/giphy.gif "Much to learn you still have.")
 
 
