@@ -6,7 +6,7 @@ by Prof. Maltsev
 ### SERIE ONE
 Write a regex pattern that:
 
->_"Find all the comment lines inside a Python file." _
+>_"Find all the comment lines inside a Python file."_
 
 >```re.findall(r"(#.*)\n",file)
 ```
