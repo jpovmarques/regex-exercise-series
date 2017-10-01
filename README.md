@@ -9,12 +9,12 @@ Write a regex pattern that:
 >_"Find all the comment lines inside a Python file."_
 >
 >```
->re.findall(r"(#.*)\n",file)
+>re.findall(r"(?<!= ')(?<!=')(?<!= \")(?<!=\")(?<!= \"\"\")(?<!=\"\"\")(#.*)", file, re.MULTILINE)
 >```
 >
 >>Finds a comment where none exists:
 >>```
->>my_string = "#HashtagsAreCool"
+>>my_string = "#HashtagsAreCool" (passed)
 >>```
 
 >_"Find all the function names that have a typified return type inside a Python file."_
